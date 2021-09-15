@@ -1,7 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body{
     background-color: black;
     padding: 0;
 }
+
 #pix{
     width:400px;
     height:400px;
@@ -48,7 +54,9 @@ main{
     align-content: center;
     font-size: 19px;
     line-height: 30px;
+    width: 800px;
     margin-top: 10px;
+    margin-left: 300px;
     color: rgb(241, 241, 241);
 }
 .social{
@@ -76,8 +84,9 @@ main{
 text-align: justify;
 text-align-last: justify;
 color: white;
-font-size: 55px;
+font-size: 40px;
 font-weight: bolder;
+width: 390px;
 line-height: 50px;
 }
 #two>div>h5{
@@ -115,6 +124,7 @@ margin-right: 60px;
     font-size: 80px;
     font-weight: bolder;
     color: white;
+    
 }
 #three>hr{
     margin-left: 20%;
@@ -126,16 +136,20 @@ margin-right: 60px;
     font-size: 60px;
     font-weight: bolder;
     color:white;
+    width: 900px;
+    margin-left: 230px;
+    margin-bottom: 20px;
 }
 #three>p>img{
     
     width: 80px;
-    height: 200px;
+    height: 400px;
 }
 #three>.folio{
     font-size: 30px;
     font-weight: bolder;
     color:white;
+    margin-top: 20px;
 
 }
 #four{
@@ -181,20 +195,25 @@ margin-right: 60px;
     #five>.five>p{
         font-size: 20px;
         color: white;
+        width: 450px;
         font-weight: bolder;
         text-align: justify;
+        margin-bottom: 20px;
     }
     #five>.five>.life{
          font-size: 18px;
          color: white;
          text-align: justify;
          font-weight: lighter;
+         
     }
     #five>div>.life{
         font-size: 18px;
         color: white;
         text-align: justify;
         font-weight: lighter;
+        width: 450px;
+        margin-bottom: 20px;
     }
     #six{
         margin: 30px 0 30px 0;
@@ -203,24 +222,29 @@ margin-right: 60px;
     font-size: 60px;
     font-weight: bolder;
     color: white;
+    margin-bottom: 30px;
 }
 #six>h4{
     font-size: 20px;
     font-weight: bold;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 #six>p{
     font-size: 18px;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
 }
-#six>p>{
-    font-size: 30px;
+#six>.click{
+    font-size: 18px;
     color: white;
-    margin-bottom: 13px;
-    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
 }
+
 #six>p>img{
   margin-right: 10px;
   color: white;
@@ -259,4 +283,123 @@ footer>div{
     text-align: center;
     color: white;
     margin-top: 80px;
+}
+@media (max-width:780px){
+    #one>p{
+        width: 600px;
+        margin-left: 100px;
+    }
+    #two>div>h1{
+        font-size: 25px;
+        width: 250px;
+    }
+    #three>p{
+        font-size: 40px;
+        width: 600px;
+        margin-left:90px;
+
+    }
+    .more{
+        width: 210px;
+        height: 210px;
+    }
+    #four>button{
+        width: 160px;
+        margin-left: 310px;
+    }
+    #five>.five>p{
+        width: 320px;
+        font-size: 16px;
+    }
+    #five>.five>.life{
+        width: 300px;
+        margin-right:0;
+        font-size:16px;
+    }
+    
+    #five{
+        margin-left: 200px;
+    }
+    #five>div>.life{
+        width: 300px;
+        font-size:16px;
+    }
+    #six>h1{
+        font-size: 40px;
+    }
+}
+@media (max-width:430px){
+    #one>h1{
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    #pix{
+        width: 250px;
+        height: 250px;
+    }
+    #one>p{
+        flex-wrap: wrap;
+        margin: 20px;
+        align-items: center;
+        font-size: 15px;
+        width: 250px;
+        margin-left: 80px;
+    }
+    #two{
+        flex-direction: column;
+    }
+    #two>div>h1{
+        font-size: 35px;
+        line-height: normal;
+    
+    }
+    #two>div>h5{
+        font-size: 15px;
+    }
+    .a{
+        font-size: 20px;
+        width:200px;
+    }
+    .b{
+        font-size: 15px;
+    }
+    #three>p{
+        font-size: 20px;
+        width: 300px;
+        margin-left: 60px;
+    }
+    #four>button{
+       margin-left: 143px;
+    }
+    #five{
+        flex-direction: column;
+        margin-left: 50px;
+    }
+    #five>.five>.life{
+        width: 320px;
+        padding: 20px;
+        display: flex;
+        text-align: justify;
+        flex-wrap: wrap;
+    }
+    #five>.five>.p{
+        
+        padding: 40px;
+        
+    }
+    .five{
+        padding: 40px;
+    }
+    #five>div>.life{
+        width: 320px;
+        padding: 20px;
+        display: flex;
+        text-align: justify;
+        flex-wrap: wrap;
+    }
+    #six >h1{
+        font-size: 40px;
+        text-align: center ;
+        
+    }
 }
