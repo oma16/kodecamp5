@@ -188,6 +188,7 @@ margin-right: 60px;
         height: 150px;
         font-weight: bolder;
         display:flex;
+        justify-content: start;
     }
     #five>.five{
      margin: auto;
@@ -386,6 +387,7 @@ footer>div{
    
     #five{
         flex-direction: column;
+        justify-content: center;
      
     }
     #five>.five>.life{
@@ -417,7 +419,7 @@ footer>div{
     }
     #five>div>img {
         
-        margin-right: 237px;
+/*         margin-right: 237px; */
     }
     #six>.click {
         font-size: 17px;
